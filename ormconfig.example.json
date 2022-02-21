@@ -2,9 +2,9 @@
   "type": "postgres",
   "host": "localhost",
   "port": 5432,
-  "username": "postgres",
-  "password": "database_password",
-  "database": "database_name",
+  "username": "docker",
+  "password": "docker",
+  "database": "piupiuwer_postgres",
   "entities": [
     "./src/modules/*/infra/typeorm/entities/*.ts"
   ],
